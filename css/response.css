@@ -1,0 +1,271 @@
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+
+
+    .portfolio-section img {
+        height: 200px;
+        width: 300px;
+    
+
+
+    }
+   
+        .portfolio-section .col:nth-child(3) {
+            margin-left: none;
+            text-align: none;
+
+        }
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 1024px) {
+
+.menu{
+
+    display: none;
+}
+
+.mobile-menu span {
+
+    display: block;
+
+}
+
+.about-section{
+    text-align: none;
+
+}
+
+
+.about-section .col{
+padding-left: 4rem;
+margin-top: 3rem;   
+}
+
+
+/*---- portfolio-----*/
+.clint-img {
+ 
+    margin-left: 12%;
+    width: none;
+
+}
+.box{
+
+    float: none;
+    margin-left: 43%;
+}
+    .clint-review h4 {
+        text-align: center;
+        
+    }
+    .clint-review {
+        float: none;
+        width: none;
+    }
+
+    .clint-review h3 {
+       
+        text-align: center;
+        
+
+    }
+
+    .clint-review .title {
+         
+        text-align: center;
+    }
+    /*--------contact form----*/
+    form{
+
+          width: 66%;
+          margin-left: 14rem;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 980px) {
+
+    .team-section .span_1_of_4{
+        width: 49.2%;
+
+
+
+
+    }
+
+        .team-section .span_1_of_4:nth-child(3){
+            margin-left: 0;
+
+
+
+
+        }
+
+
+    
+    
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+
+.services-section .col {
+ width: 49.2%;
+}
+.services-section .col:nth-child(3){
+    margin-left: 0;
+    margin-top: 4rem;
+}
+.services-section .col:nth-child(4) {
+    margin-top: 4rem;
+}
+.clint-img {
+    margin-left:18%;
+    width: none;
+}
+.box {
+    margin-left: 18%;
+    float: none;
+}
+.clint-review {
+    padding-left: 2%;
+    float: none;
+    width: 97%;
+}
+.about-section .col:nth-child(3) {
+    padding-top: 0;
+}
+.about-section .col:nth-child(4) {
+    padding-top: 0;
+}
+form {
+    width:80%%;
+    margin-left: 17%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+
+.services-section .col {
+
+    width: 100%;
+   
+
+
+}
+.team-section .col {
+
+    width: 100%;
+
+
+}
+
+.clint-img {
+
+    margin-left: 10%;
+    text-align: center;
+
+
+}
+
+.box {
+
+    margin-left: 43%;
+    text-align: center;
+}
+
+footer ul {
+width: 70%;
+text-align: center;
+margin-left: 4rem;
+
+
+}
+.lol{
+
+    margin-right: 1rem;
+}
+.mom{
+
+    margin-left:1.4rem ;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 360px and down) */
+@media only screen and (max-width: 360px) {
+
+
+
+
+ 
+
+
+
+
+
+
+    .clint-img{
+
+        margin-left: 0%;
+    }
+    
+
+    .box{
+
+        margin-left: 35%;
+    }
+
+    .services-section .col {
+
+        width: 100%;
+        margin-left: 0;
+
+
+    }
+
+
+    textarea{
+
+
+        height: 17rem;
+
+
+
+    }
+
+}
+
+
+
